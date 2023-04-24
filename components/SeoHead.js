@@ -4,17 +4,17 @@ import { useRouter } from "next/router";
 
 // Default value for some meta data
 const defaultMeta = {
-  title: 'LaslesVPN',
-  siteName: 'LaslesVPN',
+  title: 'Skillhob',
+  siteName: 'Skillhob',
   description:
     '"Skillhob is a platform that connects startups with skilled professionals',
   // change base url of your web (without '/' at the end)
-  url: 'https://next-landing-vpn.vercel.app',
+  url: 'https://skillhob.com',
   type: 'website',
   robots: 'follow, index',
   // change with url of your image (recommended dimension = 1.91:1)
   // used in twitter, facebook, etc. card when link copied in tweet/status 
-  image: 'https://next-landing-vpn.vercel.app/assets/card-image.png',
+  image: 'https://skillhob.com/assets/Skillhob.png',
   author: 'imran nur hirey'
 };
 
@@ -90,7 +90,7 @@ const SeoHead = (props) => {
       <meta name='msapplication-TileColor' content='#F53838' />
       <meta
         name='msapplication-TileImage'
-        content='/favicon/ms-icon-144x144.png'
+        content='/assets/Skillhob.png'
       />
       {/* Accent color on supported browser */}
       <meta name='theme-color' content='#F53838' />
@@ -103,7 +103,7 @@ const favicons = [
   {
     rel: 'apple-touch-icon',
     sizes: '57x57',
-    href: '/favicon/apple-icon-57x57.png',
+    href: '/assets/Skillhob.png',
   },
   {
     rel: 'apple-touch-icon',
@@ -152,13 +152,13 @@ const favicons = [
   },
   {
     rel: 'icon',
-    href: '/favicon/favicon.ico',
+    href: '/assets/Skillhob.png',
   },
   {
     rel: 'icon',
     type: 'image/png',
     sizes: '16x16',
-    href: '/favicon/favicon-16x16.png',
+    href: '/assets/Skillhob.pn',
   },
   {
     rel: 'icon',
