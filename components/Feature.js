@@ -5,12 +5,13 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
 const features = [
+  "Comprehensive software training programs",
+  "Fast and reliable IT solutions",
   "Access to a wide network of skilled professionals",
-  "Easy-to-use platform",
-  "Advanced search filters",
-  "Secure payment system",
-  "24/7 customer support"
-]
+  "Intuitive and user-friendly platform",
+  "Advanced search filters for finding the right talent"
+];
+
 
 const Feature = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -40,7 +41,7 @@ const Feature = () => {
             We Provide Many Features You Can Use
           </h3>
           <p className="my-2 text-black-500">
-          Discover how Skillhob can help your startup grow with our powerful features. Find skilled professionals, connect in minutes, and get the support you need to succeed.
+          At Skillhob, we empower individuals to learn software development and unleash their potential. Our comprehensive training programs and expert instructors help you master the skills you need to succeed in the digital world. Join us today and take your first step towards a rewarding career in software development
           </p>
           <ul className="text-black-500 self-start list-inside ml-8">
             {features.map((feature, index) => (

@@ -108,46 +108,43 @@ const favicons = [
   {
     rel: 'apple-touch-icon',
     sizes: '60x60',
-    href: '/favicon/apple-icon-60x60.png',
-  },
+     href: '/assets/Skillhob.png', },
   {
     rel: 'apple-touch-icon',
     sizes: '72x72',
-    href: '/favicon/apple-icon-72x72.png',
-  },
+     href: '/assets/Skillhob.png', },
   {
     rel: 'apple-touch-icon',
     sizes: '76x76',
-    href: '/favicon/apple-icon-76x76.png',
-  },
+     href: '/assets/Skillhob.png', },
   {
     rel: 'apple-touch-icon',
     sizes: '114x114',
-    href: '/favicon/apple-icon-114x114.png',
+     href: '/assets/Skillhob.png',
   },
   {
     rel: 'apple-touch-icon',
     sizes: '120x120',
-    href: '/favicon/apple-icon-120x120.png',
+     href: '/assets/Skillhob.png',
   },
   {
     rel: 'apple-touch-icon',
     sizes: '144x144',
-    href: '/favicon/apple-icon-144x144.png',
+     href: '/assets/Skillhob.png',
   },
   {
     rel: 'apple-touch-icon',
     sizes: '152x152',
-    href: '/favicon/apple-icon-152x152.png',
+     href: '/assets/Skillhob.png',
   },
   {
     rel: 'apple-touch-icon',
     sizes: '180x180',
-    href: '/favicon/apple-icon-180x180.png',
+     href: '/assets/Skillhob.png',
   },
   {
     rel: 'mask-icon',
-    href: '/favicon/safari-pinned-tab.svg',
+     href: '/assets/Skillhob.png',   
     color: '#F59A9A',
   },
   {
@@ -164,23 +161,23 @@ const favicons = [
     rel: 'icon',
     type: 'image/png',
     sizes: '32x32',
-    href: '/favicon/favicon-32x32.png',
+    href: '/fav-32x32.png',
   },
   {
     rel: 'icon',
     type: 'image/png',
     sizes: '96x96',
-    href: '/favicon/favicon-96x96.png',
+    href: '/assets/Skillhob.png',
   },
   {
     rel: 'icon',
     type: 'image/png',
     sizes: '192x192',
-    href: '/favicon/android-icon-192x192.png',
+    href: '/assets/Skillhob.png',
   },
   {
     rel: 'manifest',
-    href: '/site.webmanifest',
+    href: '/assets/Skillhob.png',
   },
 ];
 

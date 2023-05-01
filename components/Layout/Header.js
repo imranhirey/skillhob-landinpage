@@ -3,7 +3,6 @@ import Link from "next/link";
 // Import react scroll
 import { Link as LinkScroll } from "react-scroll";
 import ButtonOutline from "../misc/ButtonOutline.";
-import LogoVPN from "../../public/assets/Logo.svg";
 import Image from "next/image";
 
 const Header = () => {
@@ -25,13 +24,18 @@ const Header = () => {
         <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
           <div className="col-start-1 col-end-2 flex items-center">
             <Link href="/">
-              <Image
-                src='/assets/Skillhob.png'
-                alt="Skillhob"
-                width={150}
-                height={150}
-
-              />
+              <a  className="flex items-center">
+                <h1 style={{
+                  fontFamily: "Poppins",
+                  fontStyle: "normal",
+                  fontWeight: "bold",
+                  fontSize: "30px",
+                  lineHeight: "36px",
+                 
+                }}>
+                SKILLHOB
+                </h1>
+              </a>
             </Link>
           </div>
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
@@ -69,7 +73,7 @@ const Header = () => {
                   : " text-black-500 hover:text-orange-500 ")
               }
             >
-              Feature
+              Courses
             </LinkScroll>
             <LinkScroll
               activeClass="active"
@@ -87,7 +91,7 @@ const Header = () => {
                   : " text-black-500 hover:text-orange-500 ")
               }
             >
-              Pricing
+              Fees
             </LinkScroll>
             <LinkScroll
               activeClass="active"
