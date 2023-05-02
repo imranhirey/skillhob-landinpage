@@ -8,18 +8,18 @@ import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 const Hero = ({
   listUser = [
     {
-      name: "Students",
-      number: "78",
+      name: "Users",
+      number: "390",
       icon: "/assets/Icon/heroicons_sm-user.svg",
     },
     {
       name: "Locations",
-      number: "3",
+      number: "20",
       icon: "/assets/Icon/gridicons_location.svg",
     },
     {
-      name: "Programs",
-      number: "12",
+      name: "Server",
+      number: "50",
       icon: "/assets/Icon/bx_bxs-server.svg",
     },
   ],
@@ -37,10 +37,11 @@ const Hero = ({
             variants={scrollAnimation}>
             <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
               <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-              Empowering Digital Minds <strong></strong>
+              connect with skilled startups <strong></strong>
               </h1>
               <p className="text-black-500 mt-4 mb-6">
-              Empower your digital journey with Skillhob. Our comprehensive training and IT support services help you unleash your potential, stay ahead of the curve, and achieve your goals. Partner with us to take your skills and business to the next level
+               Out platform makes it easy to connect with the right talent in just minutes,
+               so you can focus on growing your business. 
               </p>
               <ButtonPrimary>Get Started</ButtonPrimary>
             </div>
