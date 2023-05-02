@@ -14,7 +14,7 @@ const defaultMeta = {
   robots: 'follow, index',
   // change with url of your image (recommended dimension = 1.91:1)
   // used in twitter, facebook, etc. card when link copied in tweet/status 
-  image: '/assets/Skillhob.png',
+  image: 'https://skillhob.com/assets/Skillhob.png',
   author: 'imran nur hirey'
 };
 
@@ -94,7 +94,6 @@ const SeoHead = (props) => {
       />
       {/* Accent color on supported browser */}
       <meta name='theme-color' content='#F53838' />
-              <meta property="og:image" content="/assets/Skillhob.png" />
     </Head>
   );
 };
