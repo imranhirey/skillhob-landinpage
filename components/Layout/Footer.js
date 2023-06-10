@@ -81,7 +81,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="row-span-2 sm:col-span-2 sm:col-start-11 sm:col-end-13 flex flex-col">
-          <p className="text-black-600 mb-4 font-medium text-lg">Get FRee Demo</p>
+          <p className="text-black-600 mb-4 font-medium text-lg">Get Free Demo</p>
           <ul className="text-black-500">
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
               Affiliate{" "}
