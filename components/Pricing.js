@@ -72,7 +72,7 @@ const Pricing = () => {
                 </ul>
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                   <p className="text-2xl text-black-600 text-center mb-4 ">
-                    Free
+                    Free Demo
                   </p>
                   <ButtonOutline>Select</ButtonOutline>
                 </div>
@@ -119,7 +119,7 @@ const Pricing = () => {
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                 <p className="text-2xl text-black-600 text-center mb-4 ">
-                  $3 <span className="text-black-500">/ mo</span>
+                £39.99 <span className="text-black-500">/ mo</span>
                 </p>
                 <ButtonOutline>Select</ButtonOutline>
               </div>
@@ -169,7 +169,7 @@ const Pricing = () => {
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                 <p className="text-2xl text-black-600 text-center mb-4 ">
-                  $5 <span className="text-black-500">/ mo</span>
+                £69.9 <span className="text-black-500">/ mo</span>
                 </p>
 
                 <ButtonOutline>Select</ButtonOutline>
@@ -183,11 +183,10 @@ const Pricing = () => {
             <motion.h3
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto">
-              Huge Global Network of Fast VPN{" "}
+              Huge Global Network of Skilled Inviduals{" "}
             </motion.h3>
             <motion.p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12" variants={scrollAnimation}>
-              See LaslesVPN everywhere to make it easier for you when you move
-              locations.
+            Unlock the potential of a massive global network comprising highly skilled individuals
             </motion.p>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper>
