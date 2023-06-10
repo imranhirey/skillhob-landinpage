@@ -43,7 +43,7 @@ const Hero = ({
                Our platform makes it easy to connect with the right talent in just minutes,
                so you can focus on growing your business
               </p>
-              <ButtonPrimary>Get Started</ButtonPrimary>
+              <ButtonPrimary>Get Started Now</ButtonPrimary>
             </div>
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
