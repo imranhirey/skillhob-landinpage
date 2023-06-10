@@ -37,13 +37,14 @@ const Hero = ({
             variants={scrollAnimation}>
             <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
               <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-              connect with skilled startups <strong></strong>
+              Bridging the Gap Between Talent and Opportunity <strong></strong>
               </h1>
               <p className="text-black-500 mt-4 mb-6">
-               Our platform makes it easy to connect with the right talent in just minutes,
-               so you can focus on growing your business
+              The Ultimate Platform for Talent Acquisition and Career Growth
               </p>
-              <ButtonPrimary>Get Started Now</ButtonPrimary>
+              <ButtonPrimary>
+                Get Started
+              </ButtonPrimary>
             </div>
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>

@@ -56,23 +56,32 @@ const Pricing = () => {
                 <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
                   Free Plan
                 </p>
+                <p className="text-black-500 text-center mb-4 ">
+                  * ideal for individuals
+                </p>
                 <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                   <li className="relative check custom-list my-2">
-                  Access to a wide range of skilled professionals.
+                  Search and connect with companies for potential collaborations.
                   </li>
                   <li className="relative check custom-list my-2">
-                  Basic search filters to find professionals that match your needs.
+                  Receive and respond to companies' requests for new roles based on your skills                  </li>
+                  <li className="relative check custom-list my-2">
+                  Connect and network with other skilled individuals.                  </li>
+                  <li className="relative check custom-list my-2">
+                  Ticked based support from the Skillhob team.
                   </li>
                   <li className="relative check custom-list my-2">
-                  Ability to post up to 3 job listings every week
+                  Stay updated with the latest news stories and industry trends.
                   </li>
-                  <li className="relative check custom-list my-2">
-                  Personalized support from the Skillhob team.
-                  </li>
+
                 </ul>
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                   <p className="text-2xl text-black-600 text-center mb-4 ">
-                    Free Demo
+                    Free Forever
+                    
+                  </p>
+                  <p className="text-black-500 text-center mb-4 ">
+                    you can upgrade to skillhob plues+ for £3/mo
                   </p>
                   <ButtonOutline>Select</ButtonOutline>
                 </div>
@@ -100,18 +109,24 @@ const Pricing = () => {
               <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
                 Standard Plan{" "}
               </p>
+              <p className="text-black-500 text-center mb-4 ">
+                  * ideal for recruiters
+                </p>
               <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                 <li className="relative check custom-list my-2">
-                Advenced  search filters to find professionals that match your needs.
+                Search and connect with talented individuals.
                 </li>
                 <li className="relative check custom-list my-2">
-                Ability to post up to 10 job listings every week
+                Assist companies in finding skilled professionals and building their teams by posting job listings.
                 </li>
                 <li className="relative check custom-list my-2">
-                Personalized support from the Skillhob team.
+                Access to CV arrangements and data extractor tools.
                 </li>
                 <li className="relative check custom-list my-2">
-                Access to a wide range of skilled professionals.
+                Arrange and book calls and interviews with skilled individuals.
+                                </li>
+                                <li className="relative check custom-list my-2">
+                                Additional features and benefits for recruiters.
                 </li>
                 <li className="relative check custom-list my-2">
                   30 days money back guarantee
@@ -119,8 +134,11 @@ const Pricing = () => {
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                 <p className="text-2xl text-black-600 text-center mb-4 ">
-                £39.99 <span className="text-black-500">/ mo</span>
+                £29.9 <span className="text-black-500">/ mo</span>
                 </p>
+                <p className="text-black-500 text-center mb-4 ">
+                    2 weeks free trial
+                  </p>
                 <ButtonOutline>Select</ButtonOutline>
               </div>
               </motion.div>
@@ -147,21 +165,23 @@ const Pricing = () => {
               <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
                 Premium Plan{" "}
               </p>
+              <p className="text-black-500 text-center mb-4 ">
+                  * ideal for companies
+                </p>
               <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                 <li className="relative check custom-list my-2">
-                Advenced  search filters to find professionals that match your needs.
-                </li>
+                Advanced search and filtering options to find the right talent.                </li>
                 <li className="relative check custom-list my-2">
-                Ability to post up to 100 job listings every week
-                </li>
+                Exclusive priority support from the Skillhob team.                </li>
                 <li className="relative check custom-list my-2">
-                Personalized support from the Skillhob team.
-                </li>
+      Customized features and solutions tailored to your business needs.
+    </li>
                 <li className="relative check custom-list my-2">
-                Access to a wide range of skilled professionals.
-                </li>
+                Connect and collaborate with recruiters for talent acquisition.                </li>
                 <li className="relative check custom-list my-2">
-                 3 months money back guarantee
+                Schedule and manage interviews with ease               </li>
+                <li className="relative check custom-list my-2">
+                 30 days money back guarantee
                 </li>
                 <li className="relative check custom-list my-2">
                   Get New Features{" "}
@@ -169,8 +189,11 @@ const Pricing = () => {
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                 <p className="text-2xl text-black-600 text-center mb-4 ">
-                £69.9 <span className="text-black-500">/ mo</span>
+                £99.9 <span className="text-black-500">/ mo</span>
                 </p>
+                <p className="text-black-500 text-center mb-4 ">
+                    7 days free trial
+                  </p>
 
                 <ButtonOutline>Select</ButtonOutline>
               </div>
@@ -180,7 +203,7 @@ const Pricing = () => {
         </div>
         <div className="flex flex-col w-full my-16">
           <ScrollAnimationWrapper>
-            <motion.h3
+          <motion.h3
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto">
               Huge Global Network of Skilled Inviduals{" "}
