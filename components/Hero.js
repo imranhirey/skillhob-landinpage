@@ -41,7 +41,7 @@ const Hero = ({
               </h1>
               <p className="text-black-500 mt-4 mb-6">
                Out platform makes it easy to connect with the right talent in just minutes,
-               so you can focus on growing your business. 
+               so you can focus on growing your business
               </p>
               <ButtonPrimary>Get Started</ButtonPrimary>
             </div>
