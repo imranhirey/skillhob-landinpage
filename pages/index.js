@@ -7,7 +7,8 @@ import SeoHead from "../components/SeoHead";
 export default function Home() {
   return (
     <>
-      <SeoHead title='Connect with Top Talent for Your Startup | Skillhob' />
+      <SeoHead title='Bridging the Gap Between Talent and Opportunity | Skillhob'
+      />
       <Layout>
         <Hero />
         <Feature />

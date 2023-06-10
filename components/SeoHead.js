@@ -7,7 +7,7 @@ const defaultMeta = {
   title: 'Skillhob',
   siteName: 'Skillhob',
   description:
-    '"Skillhob is a platform that connects startups with skilled professionals',
+    "Connecting Skilled Professionals, Recruiters, and Companies for Successful Career Growth and Talent Acquisition",
   // change base url of your web (without '/' at the end)
   url: 'https://skillhob.com',
   type: 'website',
@@ -16,6 +16,8 @@ const defaultMeta = {
   // used in twitter, facebook, etc. card when link copied in tweet/status 
   image: 'https://skillhob.com/assets/Skillhob.png',
   author: 'imran nur hirey'
+  // logo 
+ 
 };
 
 /**
@@ -67,6 +69,7 @@ const SeoHead = (props) => {
       <meta name='twitter:title' content={meta.title} />
       <meta name='twitter:description' content={meta.description} />
       <meta name='twitter:image' content={meta.image} />
+     
       {meta.date && (
         <>
           <meta property='article:published_time' content={meta.date} />
