@@ -18,8 +18,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
             <meta name="description" content="Skillhob is a platform that connects skilled individuals, recruiters, and companies in the UK. Sign up now to find job opportunities, connect with talent, and solve your hiring challenges."/>
-    <meta name="keywords" content="Skillhob, platform, skilled people, recruiters, companies, sign up, job opportunities, talent, hiring challenges, UK"/>
-
+  <meta name="keywords" content="jobs available near me, job vacancy near me, my job, freelance work, job application, job opportunities, it jobs, job vacancy, job search sites, new vacancy, vacancies, places hiring near me, hiring near me, job openings, online work, application for employment, looking for a job, my career, job websites, it jobs near me, jobs hiring, online jobs, find a job, new job, job search, job openings near me">
           <link
           rel="icon"
            href="/assets/Skillhob.png"
